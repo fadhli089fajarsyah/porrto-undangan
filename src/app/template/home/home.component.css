@@ -1,0 +1,48 @@
+/* Animasi opacity dan transform */
+.memudar, .memudarL, .memudary {
+    opacity: 0;
+  }
+  
+  /* Animasi opacity saja */
+  .memudar.animate {
+    opacity: 1;
+    transition: opacity 1.5s ease; /* Transisi hanya untuk opacity */
+  }
+  
+  /* Animasi opacity dan transform untuk .memudarL */
+  .memudarL {
+    transform: translateX(-90%);
+  }
+  
+  .memudarL.animate {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Transisi untuk opacity dan transform */
+  }
+  
+  /* Animasi opacity dan transform untuk .memudary */
+  .memudary {
+    transform: translateY(-100%);
+  }
+  
+  .memudary.animate {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1.5s ease, transform 1.5s ease; /* Transisi untuk opacity dan transform */
+  }
+  
+  /* Styling font */
+  .sacramento-regular {
+    font-family: "Sacramento", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .bg-fade {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top, rgb(9, 9, 9), transparent);
+    z-index: 1;
+  }

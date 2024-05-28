@@ -1,0 +1,21 @@
+.invitation-background {
+    background-image: url('https://fahum.umsu.ac.id/wp-content/uploads/2023/11/biografi-lengkap-ibu-megawati-sukarnoputri-presiden-kelima-indonesia.jpg'); /* Ganti 'path/to/your/image.jpg' dengan path ke gambar Anda */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Sesuaikan ketinggian dengan kebutuhan Anda */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .content {
+    color: white; /* Warna teks pada gambar */
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Efek bayangan teks untuk kontras yang lebih baik */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5); /* Warna latar belakang untuk teks */
+  }
+  
