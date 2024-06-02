@@ -3,11 +3,14 @@ import { isPlatformBrowser } from '@angular/common';
 import { NavbarComponent } from '../componentsGlobal/navbar/navbar.component';
 import { Layer2Component } from './componetsHome/layer2/layer2.component';
 import { Layer3Component } from './componetsHome/layer3/layer3.component';
+import { VidieoYtComponent } from './componetsHome/vidieo-yt/vidieo-yt.component';
+import { AlbumFotoComponent } from './componetsHome/album-foto/album-foto.component';
+
 
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent , Layer2Component,Layer3Component],
+  imports: [NavbarComponent , Layer2Component,Layer3Component,VidieoYtComponent,AlbumFotoComponent],
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })

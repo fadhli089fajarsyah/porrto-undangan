@@ -4,3 +4,5 @@ npm install -g @angular/cli@17
 ng new undanganFe
 
 ng add @angular/material ini ui
+
+ng add @angular/youtube-player ini buat yt vidio
